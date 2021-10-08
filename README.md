@@ -1,7 +1,6 @@
 LABO - Laboratório Oliveira
 ======
 
-[![Source Code](http://img.shields.io/badge/source-league/plates-blue.svg?style=flat-square)](https://github.com/thephpleague/plates)
 [![Latest Version](https://img.shields.io/github/release/thephpleague/plates.svg?style=flat-square)](https://github.com/thephpleague/plates/releases)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](https://app.labo.com.br/termos)
 [![Build Status](https://img.shields.io/github/workflow/status/thephpleague/plates/PHP/v3?style=flat-square)](https://github.com/thephpleague/plates/actions?query=workflow%3APHP+branch%3Av3)
@@ -11,24 +10,21 @@ LABO - Laboratório Oliveira
 
 Bem-vindo! Este repositório é de uso exclusivo do labo laboratório, nele esta contido em suas respactivas paginas o codigo fonte do aplicativo mobile da plataforma IOS e ANDROID sendo o mesmo app porem em plataformas diferentes
 
-### Highlights
+### Funcionalidades do app
 
-- Native PHP templates, no new [syntax](https://platesphp.com/templates/syntax/) to learn
-- Plates is a template system, not a template language
-- Plates encourages the use of existing PHP functions
-- Increase code reuse with template [layouts](https://platesphp.com/templates/layouts/) and [inheritance](https://platesphp.com/templates/inheritance/)
-- Template [folders](https://platesphp.com/engine/folders/) for grouping templates into namespaces
-- [Data](https://platesphp.com/templates/data/#preassigned-and-shared-data) sharing across templates
-- Preassign [data](https://platesphp.com/templates/data/#preassigned-and-shared-data) to specific templates
-- Built-in [escaping](https://platesphp.com/templates/escaping/) helpers
-- Easy to extend using [functions](https://platesphp.com/engine/functions/) and [extensions](https://platesphp.com/engine/extensions/)
-- Framework-agnostic, will work with any project
-- Decoupled design makes templates easy to test
-- Composer ready and PSR-2 compliant
+- Criação de orçamento de exames clinicos disponiveis no App.
+- Agendamento de exames sem relação ou baseado no orcamento anterior.
+- Envio de dados como imagens de pedido medico e de documentos pessoais
 
-## Installation
 
-Plates is available via Composer:
+## Instalação
+
+- Navegue ate o repositorio desejado (Android ou IOS)
+- Clone o respectivo repositorio
+- Para o android abra o android studio, faça o import do projeto e aguarde ate que todos os modulos estejam carregados 
+- Para o IOS abra o xcode, faça o import do projeto e aguarde ate que os modulos estejam 100% carregados 
+- Para ambos ultilize o simulados de dispositivos para visualizar suas alteraçoes.
+- Uma documentaçao completa sera disponibilizada em breve na proxima seçao 
 
 ```
 composer require league/plates
